@@ -19,5 +19,3 @@ def order_numbers(number):
     for i in number:
         if i.isdigit():
             return int(i)
-
-print(order("is2 Thi1s T4est 3a"))
