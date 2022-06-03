@@ -17,4 +17,7 @@ def move_zeros(array):
 
 #testing function with different number sets
 callfunc = move_zeros([1, 2, 0, 1, 0, 1, 0, 3, 0, 1])
+callfunc2 = move_zeros([13, 0, 4, 1, 6, 1, 8, 3, 0, 100])
+callfunc3 = move_zeros([78,1,38,47,22])
+callfunc4 = move_zeros([0,2,8,0])
 print(callfunc)
