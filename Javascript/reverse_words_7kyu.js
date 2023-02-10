@@ -8,5 +8,5 @@ function reverseWords(str) {
     // split it by space > map it > split (no space) each word in to letters > reverse each letter, join them
     let mapit = str.split(" ").map(each_word => each_word.split("").reverse().join(""));
     // return the str and join them by adding space inbetween the words
-    return mapit.join(" ")
+    return mapit.join(" ");
   }
